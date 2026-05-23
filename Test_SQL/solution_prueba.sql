@@ -132,4 +132,20 @@ WHERE g.Fecha = (
     FROM dbo.Gastos
 );
  
+/****** Escenario: Representación gráfica de los datos sensibles del hotel 
+1. Se requiere construir en power bi un tablero de control que nos permita identificar lo siguiente: 
+• Cantidad de reservas realizadas. 
+• Cantidad de clientes que han hecho reservas. 
+• Valor total de reservas (manejar la siguiente colorimetría: Rojo si el valor es 0, Amarillo si el valor 
+esta comprendido entre 1 y 5, verde si el valor es mayor a 5) 
+• Mediante el lenguaje DAX sacar el promedio del precio de las habitaciones 
+• En un gráfico de líneas representar el valor de las reservas con su respectivo tipo de temporada. 
+Lo anterior se debe filtrar por país y cliente. 
+ 
+ENTREGABLES: El tiempo para realizar la prueba es de 12 horas y se debe entregar al correo 
+admon@cepobia.com lo siguiente: 
+1. Scripts de la sección PRUEBA T-SQL 
+2. El archivo PBIX de la sección PRUEBA POWER BI 
+
+*******/
   
